@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Devops, Conceitos, Praticas, Beneficios, Exemplos">
+    <meta name="description" content="artigo de Devops, Conceitos, Praticas, Beneficios, Exemplos">
+    <meta name="keywords" content="Devops, Conceitos, Praticas, Beneficios, Exemplos">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-1">
+        <nav class="nav bd-grid">
+            <div>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.ygoprodeck.com%2Fimages%2Fcards_cropped%2F68462976.jpg&f=1&nofb=1&ipt=79ac71b38ad4b4e91f125a519eaf406542efe9ff2caf7cf7459003233fa2be0f" width="100" height="100" id="introducao">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class=""nav-list>
+                    <li class="nav-item"><a href="#abstract" class="nav-link">Abstract</a></li>
+                    <li class="nav-item"><a href="#introducao" class="nav-link">Introdução</a></li>
+                    <li class="nav-item"><a href="#conceitos" class="nav-link">Conceitos</a></li>
+                    <li class="nav-item"><a href="#praticas" class="nav-link">Praticas essenciais</a></li>
+                    <li class="nav-item"><a href="#ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li class="nav-item"><a href="#beneficios" class="nav-link">Beneficios</a></li>
+                    <li class="nav-item"><a href="#exemplos" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#bibliografia" class="nav-link">Bib</a></li>
+                </ul>
+            </div>
+        </nav>
+           
+    </header>
+ 
+    <main>
+       
+        <section class="abstract" id="abstract">
+            <h2 class="section-title">Abstract</h2>
+            <h3>&emsp;Modern DevOps has established itself as a fundamental pillar of contemporary software engineering, promoting the unification of development and operations to ensure more efficient, rapid, and reliable deliveries. This study explores the essential concepts of this methodology, with an emphasis on the CALMS model (Culture, Automation, Lean, Measurement, and Sharing) and the strategic adoption of Infrastructure as Code (IaC) and Continuous Integration and Continuous Delivery (CI/CD) pipelines. Through an analysis of industry-leading tools such as Jenkins, Terraform, Ansible, and Docker, it discusses how automation mitigates human error, drastically reduces time-to-market, and enhances software quality. Practical examples in large-scale organizations, such as Netflix, and in critical Operational Technology (OT) sectors, like Oil and Gas, demonstrate the viability and benefits of the approach in complex environments. The work concludes that successful DevOps integration is not merely a technical choice but a necessary cultural evolution for organizational resilience and agility in the digital age.</h3>
+            <br>
+            <h3>Keywords: DevOps, CI/CD, Infrastructure as Code (IaC), Automation, Software Engineering.</h3>
+        </section>
+ 
+        <section class="introducao" id="introducao">
+            <h2 class="section-title">Introdução</h2>
+            <h3>&emsp;O DevOps moderno consolidou-se como o pilar fundamental da engenharia de software contemporânea, unindo as áreas de desenvolvimento (Dev) e operações (Ops) para garantir uma entrega de produtos mais eficiente, rápida e confiável. Esta abordagem representa uma mudança cultural focada em colaboração, automação e melhoria contínua</h3>
+        </section>
+
+        <section class="conceitos" id="conceitos">
+            <h2 class="section-title">Conceitos fundamentais</h2>
+            <h3>&emsp;Cultura DevOps: O objetivo primordial é remover os silos entre as equipes, promovendo a responsabilidade compartilhada por todo o ciclo de vida do software. O modelo CALMS (Cultura, Automação, Lean, Medição e Compartilhamento) serve como a base para medir o sucesso dessa adoção.
+
+&emsp;Infraestrutura como Código (IaC): É a prática de gerenciar e provisionar infraestrutura através de arquivos de configuração legíveis por máquina, permitindo que a infraestrutura seja tratada com o mesmo rigor que o código da aplicação.
+
+&emsp;CI/CD (Integração e Entrega Contínuas): A Integração Contínua (CI) envolve a mesclagem frequente de alterações em um repositório compartilhado para
+
+detecção precoce de erros. A Entrega Contínua (CD) estende esse processo, automatizando o lançamento de alterações validadas.<h3>
+        </section>
+ 
+        <section class="praticas" id="praticas">
+            <h2 class="section-title">Práticas Essenciais</h2>
+            <h3>&emsp;As práticas de DevOps visam automatizar o ciclo de desenvolvimento para reduzir o erro humano e aumentar a consistência:
+
+&emsp;Automação de Testes: Implementar testes unitários e de integração de forma automatizada garante a integridade do código e reduz custos de manutenção.
+
+&emsp;Monitoramento e Observabilidade: O uso de mecanismos de feedback contínuo permite que as equipes visualizem o desempenho do sistema em tempo real e antecipem falhas antes que afetem o usuário.
+
+&emsp;Conteinerização: O uso de containers como o Docker garante que as aplicações funcionem de forma idêntica em qualquer ambiente, eliminando discrepâncias de configuração.</h3>
+        </section>
+ 
+        <section class="ferramentas" id="ferramentas">
+            <h2 class="section-title">Ferramentas de Automação</h2>
+            <h3>&emsp;A escolha das ferramentas é crucial para o sucesso da estratégia:
+
+&emsp;Orquestração de CI/CD: O Jenkins é amplamente utilizado por sua flexibilidade e vasto ecossistema de plugins. GitHub Actions e GitLab CI oferecem integração nativa com o controle de versão.
+
+&emsp;Infraestrutura como Código: O Terraform destaca-se por sua abordagem declarativa e suporte multi-cloud. O Ansible é preferido para gerenciamento de configuração e automação de servidores.
+
+&emsp;Segurança e Qualidade: SonarQube para análise estática de código e Trivy para varredura de vulnerabilidades em containers.</h3>
+ 
+        </section>
+ 
+        <section class="beneficios" id="beneficios">
+            <h2 class="section-title">Benefícios da Adoção</h2>
+            <h3>&emsp;A integração de DevOps e IaC oferece vantagens competitivas claras:
+
+&emsp;Velocidade e Agilidade: Redução drástica no time-to-market através de ciclos de lançamento mais curtos.
+
+&emsp;Qualidade e Confiabilidade: A automação resulta em ambientes mais estáveis e menos falhas em produção.
+
+&emsp;Eficiência de Provisionamento: Estudos demonstram que o provisionamento automatizado pode reduzir o tempo de dias para apenas 12 a 18 minutos.</h3>
+ 
+        </section>
+ 
+        <section class="exemplos" id="exemplos">
+            <h2 class="section-title">Exemplos e Estudos de Caso</h2>
+            <h3>&emsp;Netflix: Utiliza pipelines altamente automatizados para gerenciar milhares de mudanças diárias em sua arquitetura de microsserviços, mantendo a resiliência com ferramentas de caos.
+
+&emsp;GitLab: Como uma startup, utilizou CI/CD escalável para crescer rapidamente mantendo a flexibilidade necessária para inovação.
+
+&emsp;Setor de Óleo e Gás: A implementação de pipelines DevOps em ambientes de Tecnologia Operacional (OT) permitiu a atualização segura de sistemas críticos como SCADA, reduzindo inatividade em ativos remotos.</h3>
+
+        </section>
+        <section class="bibliografia" id="bibliografia">
+            <h2 class="section-title">Bibliografia</h2>
+            <h3>ALMEIDA, F.; SIMÕES, J.; LOPES, S. Exploring the Benefits of Combining DevOps and Agile. Future Internet, [S.l.], v. 14, n. 2, 63, 2022.
+
+CHAUHAN, D. et al. Design and Implementation of A CI/CD DevOps Pipeline for Automated and Continuous Software Deployment. International Journal of DevOps (IJDO), [S.l.], v. 2, n. 1, p. 11-30, 2025.
+<br>
+<br>
+DHANUSH V. et al. Devops Automation Pipeline Deployment using Infrastructure as Code (Iac). International Journal of Creative and Open Research in Engineering and Management, [S.l.], v. 2, n. 5, maio 2026.
+<br>
+<br>
+ENEMOSAH, A. Implementing DevOps Pipelines to Accelerate Software Deployment in Oil and Gas Operational Technology Environments. International Journal of Computer Applications Technology and Research, [S.l.], v. 8, n. 12, p. 501-515, 2019.
+<br>
+<br>
+KANTHED, S. Automation Tools for DevOps: Leveraging Ansible, Terraform, and Beyond. International Scientific Journal of Engineering and Management, [S.l.], v. 5, n. 7, 2026.
+<br>
+<br>
+KOLAWOLE, I.; FAKOKUNDE, A. Improving Software Development with Continuous Integration and Deployment for Agile DevOps in Engineering Practices. International Journal of Computer Applications Technology and Research, [S.l.], v. 14, n. 1, p. 25-39, 2025.
+<br>
+<br>
+MACHUZHAK, A. V. Research of DevOps methodology for development and support of web-applications. 2023. 131 f. Dissertação (Mestrado em Ciências da Computação) – Ternopil Ivan Pulyuy National Technical University, Ternopil, 2023.
+<br>
+<br>
+MAMATHA, G. S.; RANJAN, S. Empowering DevOps with Infrastructure as Code: Trends, Tools and Techniques. International Journal of Scientific Research in Engineering and Management (IJSREM), [S.l.], v. 8, n. 6, jun. 2024.
+<br>
+<br>
+MYLSAMY, S.; MEHROTRA, D. T. Continuous Integration and Continuous Delivery (CI/CD) Pipelines. Journal of Quantum Science and Technology, [S.l.], v. 2, n. 2, p. 495-504, 2025.
+<br>
+<br>
+SAXENA, A. et al. DevOps Automation Pipeline Deployment with IaC (Infrastructure as Code). In: 2024 IEEE SILCHAR SUBSECTION CONFERENCE (SILCON), 2024, Agartala. Anais [...]. Agartala: IEEE, 2024. p. 1-6.
+<br>
+<br>
+UGWUEZE, V. U.; CHUKWUNWEIKE, J. N. Continuous Integration and Deployment Strategies for Streamlined DevOps in Software Engineering and Application Delivery. International Journal of Computer Applications Technology and Research, [S.l.], v. 14, n. 1, p. 1-24, 2025.
+<br>
+<br>
+VANGALA, V. Automating Infrastructure Deployment in DevOps: Evaluating Tools and Strategies for Scalability. International Journal of Leading Research Publication (IJLRP), [S.l.], v. 1, n. 1, p. 1-15, set. 2020.</h3>
+        </section>
+    </main>
+    <footer>
+        <p id="footer-title">lição de casa</p>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

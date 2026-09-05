@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Monsieur+La+Doulaise&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+:root {
+    --corprincipal: #070707dd;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Ballet, Arial, sans-serif;
+    line-height: 1.6;
+    color:#fbfdfb8a;
+    background-color: var(--corprincipal);
+}
+header-1{
+    background-color: #000000;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    top:0;
+}
+.nav{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nav-logo{
+    color: var(--corprincipal);
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    padding: 5px 0;
+}
+.nav-menu{
+    float: right;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-link{
+    color:#fbfdfb8a;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+ .nav-link.active,
+ .nav-link:hover {
+    color : #906ce4;
+    background-color: #555;
+    border-radius: 3px;
+ }
+ section {
+    padding: 80px 0;
+    width: 960px;
+    margin: 0 auto;
+ }
+ .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #8257E5;
+ }
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+ 
+ 
+#footer-title {
+    color: #e58d57;
+}
