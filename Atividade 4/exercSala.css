@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&family=Srisakdi:wght@400;700&display=swap');
+body{
+    padding:10px;
+}
+.container-box{
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 100px 150px;
+    grid-template-areas:
+    'a d d f' 
+    'b d d f' 
+    'c e e f';
+}
+.box{
+    background-color: white;
+    border-radius: 5px;
+}
+.a{
+    grid-area: a;
+    text-align: center;
+}
+.b{
+    grid-area: b;
+    text-align: center;
+}
+.c{
+    grid-area: c;
+    text-align: center;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+    text-align: center;
+}
+.f{
+    grid-area: f;
+    text-align: center;
+}
+.titulo{
+    font-family: Srisakdi;
+    text-align: center;
+}
+.manchete{
+    font-family: Srisakdi;
+}
+.conteudo{
+    font-family: Shalimar;
+}
