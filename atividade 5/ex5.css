@@ -1,0 +1,73 @@
+.caixa {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+/* O ::before da caixa vira o retângulo colorido com o texto centralizado */
+.caixa::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* 1. Até 420px */
+@media (max-width: 420px) {
+    .caixa::before {
+        background-color: blue;
+        content: "BLUE";
+    }
+}
+
+/* 2. De 421px até 768px */
+@media (max-width: 768px) and (min-width: 421px) {
+    .caixa::before {
+        background-color: orange;
+        content: "ORANGE";
+    }
+}
+
+/* 3. De 769px até 1024px */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .caixa::before {
+        background-color: pink;
+        content: "PINK";
+    }
+}
+
+/* 4. De 1025px até 1080px */
+@media (max-width: 1080px) and (min-width: 1025px) {
+    .caixa::before {
+        background-color: red;
+        content: "RED";
+    }
+}
+
+/* 5. De 1081px até 1366px */
+@media (max-width: 1366px) and (min-width: 1081px) {
+    .caixa::before {
+        background-color: purple;
+        content: "PURPLE";
+    }
+}
+
+/* 6. De 1367px até 1920px */
+@media (max-width: 1920px) and (min-width: 1367px) {
+    .caixa::before {
+        background-color: yellow;
+        content: "YELLOW";
+    }
+}
+
+/* 7. Acima de 1921px */
+@media (min-width: 1921px) {
+    .caixa::before {
+        background-color: green;
+        content: "GREEN";
+    }
+}
