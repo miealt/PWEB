@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+</head>
+<body>
+    <script>
+let e = prompt("PEDRA PAPEL TESOURA \n\nDIGITE A SUA ENTRADA\n1-pedra\n2-papel\n3-tesoura");
+alert("a sua escolha foi: " + (e==1?"PEDRA":(e==2?"PAPEL":(e==3?"TESOURA":"ENTRADA INVALIDA"))));
+let c = Math.ceil(Math.ceil(Math.random()*9)/3); //0,1,2
+// 1-pedra 2-papel 3-tesoura
+if(e==1 && c ==2){alert ("A escolha do NPC foi: PAPEL\n");alert("DERROTA");}
+else if (e==2 && c==3){alert ("A escolha do NPC foi: TESOURA");alert("DERROTA");}
+else if (e==3 && c==1){alert ("A escolha do NPC foi: PEDRA"); alert("DERROTA");}
+else if (e==c){alert("A escolha do NPC foi: " + (c==1?"PEDRA":(c==2?"PAPEL":(c==3?"TESOURA":"se vc esta vendo isso, algo deu errado"))));alert("EMPATE");}
+else {alert("A escolha do NPC foi: " + (c==1?"PEDRA":(c==2?"PAPEL":(c==3?"TESOURA":"se vc esta vendo isso, algo deu errado"))));alert("VITORIA");}
+    </script>
+</body>
+</html>
